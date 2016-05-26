@@ -22,3 +22,8 @@ body {
   color: white;
   text-shadow: silver 0px 0px 10px
 }
+
+div.c-wrapper {
+  width: 80%;
+  margin: auto;
+}
