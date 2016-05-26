@@ -1,58 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
-    <link href="css/my-styles.css" rel="stylesheet" media="screen">
-    <title>Iceland</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+  <link href="css/my-styles.css" rel="stylesheet" media="screen">
+  <title>Iceland</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-    <div class="navbar navbar-fixed-top navbar-default">
-      <div class="container">
-        <a class="navbar-brand" href="#">Iceland</a>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Travel Arrangements</a></li>
-              <li><a href="#">Gallery</a></li>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar navbar-fixed-top navbar-default">
     <div class="container">
-      <div class="jumbotron">
-        <div class="jumbotron-text">
-          <h1 >Iceland</h1>
-          <p >
-            No official Motto
-          </p>
-          <p >
-            "Because mums are heroes"
-          </p>
-        </div>
-      </div>
+      <a class="navbar-brand" href="#">Iceland</a>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Travel Arrangements</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
 
-    <div class="row">
-      <div class="col-sm-6">
-        <h2>kveðjur</h2>
-        <p>
-          Venjulega , bæði asna yðar væri dauður eins og fjandans steikt kjúklingur , en þú verður að rífa þetta skít á meðan ég er á aðlögunartímabili þannig að ég vil ekki drepa þig , ég vil hjálpa þér. En ég get ekki gefið þér þetta mál , það ekki tilheyra mér . Að auki , ég hef þegar farið í gegnum of mikið skít í morgun yfir þessu tilfelli að afhenda það heimsk rassinn þinn.
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <h2>Greetings!</h2>
-        <p>
-          Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
-        </p>
       </div>
     </div>
+  </div>
+</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- NAVBAR END -->
+
+<!-- JUMBOTRON -->
+<div class="container">
+  <div class="jumbotron">
+    <div class="jumbotron-text">
+      <h1 >Iceland</h1>
+      <p >
+        No official Motto
+      </p>
+      <p >
+        "Because mums are heroes"
+      </p>
+    </div>
+  </div>
+
+  <!-- JUMBOTRON END -->
+
+  <!-- COLUMNS -->
+  <div class="row">
+    <div class="col-sm-5">
+      <h2>kveðjur</h2>
+      <p>
+        Venjulega , bæði asna yðar væri dauður eins og fjandans steikt kjúklingur , en þú verður að rífa þetta skít á meðan ég er á aðlögunartímabili þannig að ég vil ekki drepa þig , ég vil hjálpa þér. En ég get ekki gefið þér þetta mál , það ekki tilheyra mér . Að auki , ég hef þegar farið í gegnum of mikið skít í morgun yfir þessu tilfelli að afhenda það.
+      </p>
+    </div>
+    <div class="col-sm-5 col-md-offset-2 col-sm-offset-1">
+      <h2>Greetings!</h2>
+      <p>
+        Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.
+      </p>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- COLUMNS END -->
+
+<!-- CAROUSEL -->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/carousel-1.jpg" alt="Dank Iceland pics bro" />
+    </div>
+    <div class="item">
+      <img src="img/carousel-2.jpg" alt="Dank Iceland pics bro" />
+    </div>
+    <div class="item">
+      <img src="img/carousel-3.jpg" alt="Dank Iceland pics bro" />
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="icon-prev"></span></a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="icon-next"></span></a>
+</div>
+
+<!-- CAROUSEL END -->
+</body>
 </html>
