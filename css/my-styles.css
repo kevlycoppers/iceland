@@ -27,3 +27,7 @@ div.c-wrapper {
   width: 80%;
   margin: auto;
 }
+
+#footer-text {
+  text-align: center;
+}
